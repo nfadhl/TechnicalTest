@@ -25,8 +25,8 @@ final class UsersListViewModel {
     
     /// Fetches the list of users, either from the API if the network is available or from the local cache if not.
     func fetchUsers() {
-        usersService.isConnectedToNetwork { [weak self] isConnected in
-            guard let self = self else { return }
+        Task {
+            let isConnected = await self.usersService.isConnectedToNetwork()
             if isConnected {
                 self.fetchUsersFromAPI()
             } else {

@@ -9,5 +9,5 @@ import Foundation
 
 protocol UsersServiceProtocol {
     func fetchUsers() async throws -> [User]
-    func isConnectedToNetwork(completion: @escaping (Bool) -> Void)
+    func isConnectedToNetwork() async -> Bool
 }

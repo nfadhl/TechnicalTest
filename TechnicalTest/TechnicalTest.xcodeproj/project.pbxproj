@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2F8ED42C8269050092E919 /* UsersListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F8ED32C8269050092E919 /* UsersListViewModelTest.swift */; };
+		1E5C0BA72C82053B000131BE /* APIURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0BA62C82053A000131BE /* APIURLs.plist */; };
 		1E5DC1172C80F87D00E58D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC1162C80F87D00E58D30 /* AppDelegate.swift */; };
 		1E5DC1192C80F87D00E58D30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC1182C80F87D00E58D30 /* SceneDelegate.swift */; };
 		1E5DC11E2C80F87D00E58D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5DC11C2C80F87D00E58D30 /* Main.storyboard */; };
@@ -22,7 +24,6 @@
 		1E5DC1512C80FAC700E58D30 /* UsersServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC1502C80FAC700E58D30 /* UsersServiceProtocol.swift */; };
 		1E5DC1532C80FACF00E58D30 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC1522C80FACF00E58D30 /* UsersService.swift */; };
 		1E5DC1562C80FB1800E58D30 /* URLsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC1552C80FB1800E58D30 /* URLsManager.swift */; };
-		1E5DC1582C80FB5400E58D30 /* APIURLS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E5DC1572C80FB5400E58D30 /* APIURLS.plist */; };
 		1E5DC15B2C80FBC300E58D30 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC15A2C80FBC300E58D30 /* UserDefaultsExtension.swift */; };
 		1E5DC15D2C80FBD300E58D30 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC15C2C80FBD300E58D30 /* UIImageViewExtension.swift */; };
 		1E5DC1602C80FC1800E58D30 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC15F2C80FC1800E58D30 /* ImageCache.swift */; };
@@ -31,6 +32,10 @@
 		1E5DC1672C81A99800E58D30 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC1662C81A99800E58D30 /* UserTableViewCell.swift */; };
 		1E5DC1692C81A9A600E58D30 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC1682C81A9A600E58D30 /* UserViewModel.swift */; };
 		1E5DC16B2C81A9BE00E58D30 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC16A2C81A9BE00E58D30 /* UserDetailsViewController.swift */; };
+		1E5DC16E2C81B43200E58D30 /* MockAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC16D2C81B43200E58D30 /* MockAPICall.swift */; };
+		1E5DC1702C81B44E00E58D30 /* UsersServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC16F2C81B44E00E58D30 /* UsersServiceTest.swift */; };
+		1E5DC1732C81B95300E58D30 /* UserviewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC1722C81B95300E58D30 /* UserviewModelTest.swift */; };
+		1E5DC1752C81BC9000E58D30 /* MockUsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC1742C81BC9000E58D30 /* MockUsersService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E2F8ED32C8269050092E919 /* UsersListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModelTest.swift; sourceTree = "<group>"; };
+		1E5C0BA62C82053A000131BE /* APIURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIURLs.plist; sourceTree = "<group>"; };
 		1E5DC1132C80F87D00E58D30 /* TechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5DC1162C80F87D00E58D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E5DC1182C80F87D00E58D30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,7 +77,6 @@
 		1E5DC1502C80FAC700E58D30 /* UsersServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersServiceProtocol.swift; sourceTree = "<group>"; };
 		1E5DC1522C80FACF00E58D30 /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
 		1E5DC1552C80FB1800E58D30 /* URLsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLsManager.swift; sourceTree = "<group>"; };
-		1E5DC1572C80FB5400E58D30 /* APIURLS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIURLS.plist; sourceTree = "<group>"; };
 		1E5DC15A2C80FBC300E58D30 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
 		1E5DC15C2C80FBD300E58D30 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		1E5DC15F2C80FC1800E58D30 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
@@ -79,6 +85,10 @@
 		1E5DC1662C81A99800E58D30 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		1E5DC1682C81A9A600E58D30 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		1E5DC16A2C81A9BE00E58D30 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		1E5DC16D2C81B43200E58D30 /* MockAPICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPICall.swift; sourceTree = "<group>"; };
+		1E5DC16F2C81B44E00E58D30 /* UsersServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersServiceTest.swift; sourceTree = "<group>"; };
+		1E5DC1722C81B95300E58D30 /* UserviewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserviewModelTest.swift; sourceTree = "<group>"; };
+		1E5DC1742C81BC9000E58D30 /* MockUsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUsersService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +140,10 @@
 			isa = PBXGroup;
 			children = (
 				1E5DC1462C80FA4900E58D30 /* Network */,
-				1E5DC1542C80FB0800E58D30 /* Manager */,
 				1E5DC14D2C80FAA100E58D30 /* Service */,
 				1E5DC1612C81A95B00E58D30 /* Users */,
 				1E5DC15E2C80FBF900E58D30 /* Utils */,
+				1E5DC1542C80FB0800E58D30 /* Manager */,
 				1E5DC1592C80FBAF00E58D30 /* Extension */,
 				1E5DC1162C80F87D00E58D30 /* AppDelegate.swift */,
 				1E5DC1182C80F87D00E58D30 /* SceneDelegate.swift */,
@@ -148,6 +158,8 @@
 		1E5DC12C2C80F88100E58D30 /* TechnicalTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				1E5DC16C2C81B3FC00E58D30 /* Service */,
+				1E5DC1712C81B93C00E58D30 /* Users */,
 				1E5DC12D2C80F88100E58D30 /* TechnicalTestTests.swift */,
 			);
 			path = TechnicalTestTests;
@@ -185,8 +197,8 @@
 		1E5DC1542C80FB0800E58D30 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				1E5C0BA62C82053A000131BE /* APIURLs.plist */,
 				1E5DC1552C80FB1800E58D30 /* URLsManager.swift */,
-				1E5DC1572C80FB5400E58D30 /* APIURLS.plist */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -216,6 +228,25 @@
 				1E5DC1662C81A99800E58D30 /* UserTableViewCell.swift */,
 				1E5DC1682C81A9A600E58D30 /* UserViewModel.swift */,
 				1E5DC16A2C81A9BE00E58D30 /* UserDetailsViewController.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		1E5DC16C2C81B3FC00E58D30 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1E5DC16D2C81B43200E58D30 /* MockAPICall.swift */,
+				1E5DC1742C81BC9000E58D30 /* MockUsersService.swift */,
+				1E5DC16F2C81B44E00E58D30 /* UsersServiceTest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1E5DC1712C81B93C00E58D30 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				1E5DC1722C81B95300E58D30 /* UserviewModelTest.swift */,
+				1E2F8ED32C8269050092E919 /* UsersListViewModelTest.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -327,7 +358,7 @@
 				1E5DC1232C80F88100E58D30 /* LaunchScreen.storyboard in Resources */,
 				1E5DC1202C80F88100E58D30 /* Assets.xcassets in Resources */,
 				1E5DC11E2C80F87D00E58D30 /* Main.storyboard in Resources */,
-				1E5DC1582C80FB5400E58D30 /* APIURLS.plist in Resources */,
+				1E5C0BA72C82053B000131BE /* APIURLs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +407,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5DC1752C81BC9000E58D30 /* MockUsersService.swift in Sources */,
+				1E2F8ED42C8269050092E919 /* UsersListViewModelTest.swift in Sources */,
+				1E5DC16E2C81B43200E58D30 /* MockAPICall.swift in Sources */,
+				1E5DC1732C81B95300E58D30 /* UserviewModelTest.swift in Sources */,
+				1E5DC1702C81B44E00E58D30 /* UsersServiceTest.swift in Sources */,
 				1E5DC12E2C80F88100E58D30 /* TechnicalTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -533,7 +569,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -557,6 +593,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -584,6 +621,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,7 +643,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.naderfadhl.TechnicalTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -624,7 +662,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.naderfadhl.TechnicalTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
